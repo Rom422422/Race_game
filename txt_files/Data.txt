@@ -1,0 +1,44 @@
+# Customisation Settings
+Track: Metropolis
+Ship: AG-SYS
+
+# Camera Settings
+Camera Quick Follow Translation: True # Says if the camera will try to follow the ship when moving as soon as possible (not waiting the next frame)
+Camera Quick Follow Rotation: True # Says if the camera will try to follow the ship when turning as soon as possible (not waiting the next frame)
+Camera Offset Translation: [0, 1.25, 7.5] # Offset of the camera compared to the ship when quick follow
+Camera Turning Offset Quick Follow: 0.1 # Offset of the camera when the ship is turning
+Camera Moving Offset Speed Forward: 0.2
+Camera Moving Offset Speed Backward: 0.1
+
+# Synchronisation settings
+Sync real time: True # Allows if on True the synchronisation real time
+One frame rule: 0.016 # Says how much is one ideal frame
+Not Sync Mult: 3 # Says how much we compensate the not real time synchronisation
+
+# Gameplay
+Speed text convert: 205 # Says how much km/h is the equivalent of 1
+Mirror Mode: False # Says if the track is generated with mirror mode (left and right reversed)
+Reverse Mode: False # Says if the track is generated with reverse mode (you have to make the lap backwards)
+Current Lap: 1
+Current Section: 0
+Free Camera Mode: True
+
+# Objects settings
+Cube Size x: 2 # Normal size is 2
+Cube Size y: 2 # Normal size is 2
+Cube Size z: 2 # Normal size is 2
+Ship Size x: 3 # Normal size is 3
+Ship Size y: 3 # Normal size is 3
+Ship Size z: 3 # Normal size is 3
+Cactus Size: [3,3,3] # Normal Size is [3,3,3]
+Cactus Hitbox: [2.4,2.4,2.4] # Normal Size is [2.4,2.4,2.4]
+Palmier Size: [3,5,3] # Normal Size is [3,5,3]
+Palmier Hitbox: [0.25,0.25,0.25] # Normal Size is [0.25,0.25,0.25]
+Arrow Size: [3,3,3] # Normal Size is [3,3,3]
+
+# Tracks settings; Example: (Checkpoints, Number of Lap Required, Sky Background Color)
+Metropolis: ([0,1,2],3, [0.6, 0.7, 1.0, 1.0])
+Eight: ([0,1,2,3,4],2, [0.22, 0.22, 0.92, 1.0])
+Jungle Forest: ([0,1,2,3,4,5],2, [0.6, 1.0, 0.7, 1.0])
+Dry Desert: ([0,1,2,3,4,5],3, [1.0, 0.85, 0, 1.0])
+Metropolis 2: ([0,1,2],3, [0.6, 0.7, 1.0, 1.0])

@@ -1,0 +1,24 @@
+Map from Brick System Draft for Wipeout Project:
+
+We configurate the map with a matrix containing all the bricks
+For empty space, we put an .
+For bricks, we put a B
+For spawn ship location we put the direction with >, v, <, ^ and the number of the spawn for ie v0 is down for the ship 0
+For checkpoints, we put the number associated. Checkpoints 0 is the start.
+
+An example of a map:
+B	B	B	B	B	B	B	B	B	B	B	B	B	B
+B	.	.	.	.	.	.	2	.	.	.	.	.	B
+B	.	.	.	.	.	.	2	.	.	.	.	.	B
+B	.	.	.	.	.	.	2	.	.	.	.	.	B
+B	.	.	.	.	.	.	2	.	.	.	.	.	B
+B	.	.	.	.	B	B	B	B	.	.	.	.	B
+B	.	.	.	.	B	.	.	B	.	.	.	.	B
+B	.	v0	.	.	B	.	.	B	.	.	.	.	B
+B	.	.	.	.	B	.	.	B	.	.	.	.	B
+B	0	0	0	0	B	B	B	B	1	1	1	1	B
+B	.	.	.	.	.	.	.	.	.	.	.	.	B
+B	.	.	.	.	.	.	.	.	.	.	.	.	B
+B	.	.	.	.	.	.	.	.	.	.	.	.	B
+B	.	.	.	.	.	.	.	.	.	.	.	.	B
+B	B	B	B	B	B	B	B	B	B	B	B	B	B

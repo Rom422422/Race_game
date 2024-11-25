@@ -1,0 +1,22 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl 02_-_Default
+Ns 64.980171
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd cactus/textures/cactus-texture-1-amy-henderson.jpg
+
+newmtl 03_-_Default
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd cactus/textures/soil_cracked_0016_01_thumb.jpg

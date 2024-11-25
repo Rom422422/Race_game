@@ -1,0 +1,53 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Body.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/!Base_BaseColor.jpg
+map_Bump -bm 0.500000 C:/Body_normal.png
+
+newmtl Boost.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+illum 2
+map_Kd textures/!Base_BaseColor.jpg
+map_Ke C:/Boost_emissive.jpeg
+map_d C:/Boost_baseColor.png
+
+newmtl Cockpit.002
+Ns 0.692820
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/Cockpit.jpg
+
+newmtl Glow.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+illum 2
+map_Kd textures/Engine_GLOW.jpg
+map_Ke C:/Glow_emissive.jpeg
+map_d C:/Glow_baseColor.png
+
+newmtl Material.001
+Ns 902.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd textures/AG_glass.jpg
